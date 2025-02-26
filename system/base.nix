@@ -23,13 +23,13 @@
 
     # Configure keymap in X11
     xserver = {
-      layout = "us";
-      xkbVariant = "";
+      xkb.layout = "de";
+      xkb.variant = "de";
       enable = true;
-      displayManager.sddm.enable = true;
-      # Enable touchpad
-      libinput.enable = true;
     };
+    displayManager.sddm.enable = true;
+
+    libinput.enable = true;
 
     # sound
     pipewire = {
@@ -42,10 +42,10 @@
     # Syncthing
     syncthing = {
       enable = true;
-      user = "josiah";
+      user = "arkatosh";
       group = "users";
-      dataDir = "/home/josiah";
-      configDir = "/home/josiah/.config/syncthing";
+      dataDir = "/home/arkatosh";
+      configDir = "/home/arkatosh/.config/syncthing";
       guiAddress = "127.0.0.1:8384";
       openDefaultPorts = true;
     };
@@ -79,7 +79,7 @@
     LC_TIME = "en_US.UTF-8";
   };
 
-  users.users.josiah = {
+  users.users.arkatosh = {
     isNormalUser = true;
     description = "Josiah";
     shell = pkgs.zsh;

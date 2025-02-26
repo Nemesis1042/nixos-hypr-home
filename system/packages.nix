@@ -59,7 +59,7 @@
     bat
     busybox
     dmidecode
-    etcher
+    #etcher-bin
     jq
     killall
     ncdu
@@ -93,7 +93,8 @@
   # Fonts
   fonts.packages = with pkgs; [
     # Nerd fonts
-    nerdfonts
+    nerd-fonts._0xproto
+    nerd-fonts.droid-sans-mono
     meslo-lgs-nf
   ];
 }

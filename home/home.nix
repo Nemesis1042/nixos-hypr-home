@@ -7,8 +7,8 @@
   ];
 
   # Info about user and path it manages
-  home.username = "josiah";
-  home.homeDirectory = "/home/josiah";
+  home.username = "arkatosh";
+  home.homeDirectory = "/home/arkatosh";
  
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
@@ -30,7 +30,7 @@
     man-pages
     man-pages-posix
     libreoffice
-    semeru-jre-bin-16
+    semeru-jre-bin-21
     syncthing
   ];
 

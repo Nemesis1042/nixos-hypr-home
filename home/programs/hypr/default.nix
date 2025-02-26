@@ -3,14 +3,14 @@
 {
   wayland.windowManager.hyprland = {
     enable = true;
-    systemdIntegration = true;
+    systemd.enable = true; 
     extraConfig = ''
       # See https://wiki.hyprland.org/Configuring/Monitors/
       monitor=eDP-1, 1920x1080@60, 0x0, 1
       monitor=DP-1, 3840x2160@59, 1920x0, 1
 
       # Source a file (multi-file configs)
-      source = /home/josiah/.config/hypr/mocha.conf
+      source = /home/arkatosh/.config/hypr/mocha.conf
 
       # Execute your favorite apps at launch
       exec-once = swww init
