@@ -24,7 +24,7 @@
     # Configure keymap in X11
     xserver = {
       xkb.layout = "de";
-      xkb.variant = "de";
+      xkb.variant = "";
       enable = true;
     };
     displayManager.sddm.enable = true;
