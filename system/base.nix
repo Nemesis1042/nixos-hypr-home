@@ -13,6 +13,9 @@
 
     shells = with pkgs; [ zsh ];
   };
+  
+  services.gnome.gnome-keyring.enable = true;
+
 
   # List services that you want to enable:
   services = {

@@ -2,7 +2,7 @@
 
 {   
   networking = {
-    hostName = "nixos";
+    hostName = "arkatosh";
     networkmanager.enable = true;
     firewall = {
       enable = true;
